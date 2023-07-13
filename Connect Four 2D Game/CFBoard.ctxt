@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CFBoard
+comment0.text=\r\n\ This\ class\ extends\ board\ and\ implements\ the\ display\r\n\ method\ which\ displays\ the\ board.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=game\ rows\ columns
+comment1.target=CFBoard(CFGame,\ int,\ int)
+comment2.params=
+comment2.target=void\ display()
+numComments=3

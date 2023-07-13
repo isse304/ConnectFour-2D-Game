@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\r\n\ Describes\ the\ current\ state\ of\ the\ board\r\n\r\n\ @author\ Qadar\ Isse\r\n\ @version\ 10/25/2021\r\n
+comment1.params=game\ numRows\ numColumns
+comment1.target=Board(Game,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Board\r\n\ \r\n\ @param\ \ game\ \ \ \ \ \ \ game\ the\ board\ is\ used\ for\r\n\ @param\ \ numRows\ \ \ \ number\ of\ rows\ of\ the\ board\r\n\ @param\ \ numColumns\ number\ of\ columns\ of\ the\ board\r\n
+comment2.params=game
+comment2.target=void\ setGame(Game)
+comment2.text=\r\n\ Associates\ to\ this\ board\ the\ game\ that\ uses\ it\r\n\r\n\ @param\ \ game\ \ the\ game\ that\ uses\ this\ board\r\n
+comment3.params=row\ column
+comment3.target=Piece\ getPiece(int,\ int)
+comment3.text=\r\n\ \ Returns\ the\ piece\ located\ at\ the\ given\ position\ or\ null\r\n\ \ if\ no\ piece\ is\ at\ that\ location;\ throws\ an\ exception\ if\ \r\n\ \ the\ location\ is\ off\ the\ board\r\n\r\n\ @param\ \ row\ \ \ \ \ the\ row\ index\ of\ the\ location\r\n\ @param\ \ column\ \ the\ column\ index\ of\ the\ location\r\n\ @return\ \ \ \ \ \ \ \ \ the\ piece\ at\ the\ given\ location\ or\ null\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ the\ location\ is\ empty\r\n
+comment4.params=piece\ row\ column
+comment4.target=void\ putPiece(Piece,\ int,\ int)
+comment4.text=\r\n\ \ Puts\ down\ the\ given\ piece\ at\ the\ given\ location;\ throws\ an\ \r\n\ \ exception\ if\ the\ location\ is\ off\ the\ board\ or\ already\r\n\ \ occupied\r\n\r\n\ @param\ \ piece\ \ \ the\ piece\ to\ place\ on\ the\ board\r\n\ @param\ \ row\ \ \ \ \ the\ row\ index\ of\ the\ target\ location\r\n\ @param\ \ column\ \ the\ column\ index\ of\ the\ target\ location\r\n
+comment5.params=row\ column
+comment5.target=void\ removePiece(int,\ int)
+comment5.text=\r\n\ \ Removes\ from\ the\ board\ the\ piece\ at\ the\ given\ location;\ \r\n\ \ throws\ an\ exception\ if\ the\ location\ is\ off\ the\ board\ or\ empty\r\n\r\n\ @param\ \ row\ \ \ \ \ the\ row\ index\ of\ the\ target\ location\r\n\ @param\ \ column\ \ the\ column\ index\ of\ the\ target\ location\r\n
+comment6.params=row\ col
+comment6.target=boolean\ isEmpty(int,\ int)
+comment6.text=\r\n\ \ \ Returns\ true\ if\ and\ only\ if\ the\ specified\ location\ is\r\n\ \ \ empty\r\n\ \ \ \r\n\ \ \ @param\ \ \ row\ \ \ \ row\ index\ of\ the\ location\ being\ checked\r\n\ \ \ @param\ \ \ col\ \ \ \ column\ index\ of\ the\ location\ being\ checked\r\n\ \ \ @return\ \ \ \ \ \ \ \ \ true\ if\ and\ only\ if\ there\ is\ no\ piece\ at\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ location\ being\ checked\r\n
+comment7.params=
+comment7.target=void\ display()
+comment7.text=\r\n\ Displays\ the\ board\ on\ the\ terminal\ window\r\n
+numComments=8

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CFGame
+comment0.text=\r\n\ This\ class\ is\ a\ child\ of\ Game\ and\ implements\ the\r\n\ abstract\ classes\ of\ Game\ namely,\ setUp,\ wrapUp,\ and\r\n\ gameOver\r\n\r\n\ @author\ Qadar\ Isse\r\n\ @version\ 11/10/2021\r\n
+comment1.params=
+comment1.target=CFGame()
+comment2.params=
+comment2.target=void\ newGame()
+comment3.params=
+comment3.target=void\ setUp()
+comment4.params=
+comment4.target=void\ wrapUp()
+comment5.params=
+comment5.target=boolean\ gameOver()
+numComments=6

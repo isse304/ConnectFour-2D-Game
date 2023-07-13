@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Describes\ one\ of\ the\ players\ of\ the\ game\r\n\r\n\ @author\ Qadar\ Isse\r\n\ @version\ 10/25/2021\r\n
+comment1.params=name\ game
+comment1.target=Player(java.lang.String,\ Game)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n\ \r\n\ @param\ name\ \ \ the\ name\ of\ the\ player\r\n\ @param\ game\ \ \ the\ game\ the\ player\ is\ about\ to\ start\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Returns\ a\ textual\ description\ of\ the\ player,\ namely\ its\ name\r\n\ \r\n\ @return\ \ \ \ the\ name\ of\ the\ player\r\n
+comment3.params=
+comment3.target=void\ playAMove()
+comment3.text=\r\n\ \ Performs\ one\ move\ on\ behalf\ of\ the\ player\r\n
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=InvalidBoardPositionException
+comment0.text=\n\ Signals\ an\ attempt\ to\ access\ a\ board\ position\ that\ is\ out\n\ of\ range\n\n\ @author\ Qadar\ Isse\n\ @version\ 10/25/2021\n
+comment1.params=row\ col
+comment1.target=InvalidBoardPositionException(int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ \n\ InvalidBoardPositionException\n\n\ @param\ row\ \ \ \ \ row\ index\n\ @param\ col\ \ \ \ \ column\ index\n
+numComments=2
